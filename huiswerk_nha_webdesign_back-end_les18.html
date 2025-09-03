@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Almelo</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- pas de breeedte 
+        van de website aan het scherm van het apparaat aan. -->
+
+        <!-- Haal een lettertype op uit Google Fonts: -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+        
+        <style>
+                body {
+                    font-family: sans-serif;
+                }
+                h1 {
+                    font-family: "Mozilla Headline", sans-serif; /* 
+                    Mozilla Headline is een Google-fonts lettertype.*/
+                    color: red;
+                    padding: 15px;
+                }
+                h2 {
+                    font-family: "Mozilla Headline", sans-serif;
+                }
+                header {
+                    background-image: url('img/almelo.jpg');
+                    background-size: 10%;
+                    background-repeat: repeat;
+                    min-height: 100px;
+                    opacity:50%;
+                }
+                .linkerdeel {
+                    background-color: rgb(241, 241, 241);
+                    height:1000px;
+                }
+                .rechterdeel {
+                    background-color: rgb(213, 245, 255);
+                    height:1000px;
+                    padding: 20px;
+                }
+                img {
+                    float: right;
+                    height: 100px;    
+                    padding: 0px 0px 0px 10px;                
+                }
+                .artikel {
+                    border-radius: 10px;
+                    background: lightblue;
+                    padding: 25px;
+                    margin: 25px; 
+                    height: 200px;
+                }
+
+                [class*="col-"] {
+                    width: 100%;
+                }
+                @media only screen and (min-width:768px) {
+                    [class*="col-"] {
+                        padding: 10px;
+                        float: left;
+                    }
+                    .col-1 {width: 8.33%;}
+                    .col-2 {width: 16.66%;}
+                    .col-3 {width: 25%;}
+                    .col-4 {width: 33.33%;}
+                    .col-5 {width: 41.66%;}
+                    .col-6 {width: 50%;}
+                    .col-7 {width: 58.33%;}
+                    .col-8 {width: 66.66%;}
+                    .col-9 {width: 75%;}
+                    .col-10 {width: 83.33%;}
+                    .col-11 {width: 91.66%;}
+                    .col-12 {width: 100%;}
+                }
+                
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Almelo</h1>
+        </header>
+        
+        <div class="col-2">
+            <section class="linkerdeel">
+                <h2>Wist u dat:</h2>
+                <ul>
+                    <li>Er in Almelo maar liefst 2 kastelen zijn te bewonderen?</li>
+                    <li>U vanuit Almelo op fietsafstand bent van prachtige natuurgebieden?</li>
+                    <li>Almelo maar lieftst 5 pleinen heeft met winkel- en uitgaansmogelijkheden?</li>
+                    <li>De Eredivisieclub Heracles Almelo al meer dan 120 jaar bestaat?</li>
+                    <li>Er ieder jaar in het centrum de Profronde van Almelo wordt verreden?</li>
+                </ul>
+            </section>
+        </div>
+        <div class="col-9">
+            <section class="rechterdeel">
+                <div class="artikel">
+                    <h2>Graafschap Almelo</h2>
+                    <p>
+                        <img src="img/graaf_almelo.jpg" alt="graaf_almelo">
+                        Almelo bestaat al sinds de Middeleeuwen. In het centrum van Almelo vind u  
+                        een kasteel met gracht, omgeven door een prachtig park. Dit "Huis Almelo" 
+                        bestaat al sinds de 12e eeuw en wordt nog steeds bewoond door de 
+                        familie Van Rechteren Limpurg. 
+                    </p>
+                </div>
+                <div class="artikel">
+                    <h2>Stadhuis van Almelo</h2>
+                    <p>
+                        <img src="img/stadhuis_almelo.jpg" alt="stadhuis_almelo">
+                        Het stadhuis van Almelo is gebouwd in 2015, ter vervanging van 
+                        het oude stadhuis, dat verbouwd is tot een wooncomplex. Het is een modern 
+                        gebouw, dat gelegen is aan een gracht, die is verbonden met het kanaal.
+                        
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>
